@@ -1,0 +1,6 @@
+set -ex
+unzip -o ~/Downloads/sk -d .
+mv -f Sol*.html index.html
+git add .
+git commit -m 'deploy macro' 
+git push
